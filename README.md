@@ -1,2 +1,2 @@
 # linuxcmdtrix
-Handy tricks to make life easier
+Handy (linux commandline) tricks to make life easier
