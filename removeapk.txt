@@ -2,7 +2,7 @@
 # Removing unwanted APK's from unbranded android tablet #
 #########################################################
 
-These steps worked for my unbranded android tablet.
+These steps worked for my unbranded Android tablet. You can use it to remove bloatware/apps you don't use.
 My goal was to remove the default browswer and a google search bar
 
 PREREQUISITE:
