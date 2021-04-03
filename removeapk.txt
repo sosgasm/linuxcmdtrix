@@ -3,7 +3,7 @@
 #########################################################
 
 These steps worked for my unbranded Android tablet. You can use it to remove bloatware/apps you don't use.
-My goal was to remove the default browswer and a google search bar
+My goal was to remove the default browser and a google search bar.
 
 PREREQUISITE:
 
@@ -48,16 +48,10 @@ Remove a package and data
 
 $ pm uninstall --user 0 <package name>
 
-I removed my packages (default browser/google search bar on home screen (which was not a widget):
+I removed my packages (default browser/google search bar on home screen (which was not a widget) using the following commands:
 
 H8005:/ $ pm list packages -s | grep browser
 package:com.android.browser
 H8005:/ $ pm uninstall --user 0 com.android.browser
 Success
-
-
-
-Well...So easy 
-
-
 
