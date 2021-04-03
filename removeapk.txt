@@ -2,7 +2,21 @@
 # Removing unwanted APK's from unbranded android tablet #
 #########################################################
 
-1. First enable "Developer mode", look for "Settings" --> "Build number" --> Tap 6 times on build number untill you get a message "you are now a developer"
+These steps worked for my unbranded android tablet.
+My goal was to remove the default browswer and a google search bar
+
+PREREQUISITE:
+
+Install Fastboot + ADB (You will only need ADB for this but Fastboot comes handy when modifying android devices)
+
+* $ sudo apt install libarchive-tools
+* $ curl -O https://dl.google.com/android/repository/platform-tools_r31.0.1-linux.zip
+* $ echo 'e347361d1e6f8802da64272903b07180199e75f1a3b6636f851744d32b2fb090  platform-tools_r31.0.1-linux.zip' | sha256sum 
+* $ unzip platform-tools**.zip
+* $ export PATH="$PWD/platform-tools:$PATH"
+* $ sudo apt install android-tools-adb
+
+1. First, turn on your device and enable "Developer mode", look for "Settings" --> "Build number" --> Tap 6 times on build number untill you get a message "you are now a developer"
 
 2. Enabe "USB debugging": "Settings" --> "Enable Debugging"
 
@@ -32,7 +46,7 @@ OR
 
 Remove a package and data
 
-pm uninstall --user 0 <package name>
+$ pm uninstall --user 0 <package name>
 
 I removed my packages (default browser/google search bar on home screen (which was not a widget):
 
