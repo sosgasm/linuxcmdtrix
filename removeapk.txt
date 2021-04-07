@@ -11,7 +11,7 @@ Install Fastboot + ADB (You will only need ADB for this but Fastboot comes handy
 
 * $ sudo apt install libarchive-tools
 * $ curl -O https://dl.google.com/android/repository/platform-tools_r31.0.1-linux.zip
-* $ echo 'e347361d1e6f8802da64272903b07180199e75f1a3b6636f851744d32b2fb090  platform-tools_r31.0.1-linux.zip' | sha256sum 
+* $ echo 'e347361d1e6f8802da64272903b07180199e75f1a3b6636f851744d32b2fb090  platform-tools_r31.0.1-linux.zip' | sha256sum
 * $ unzip platform-tools**.zip
 * $ export PATH="$PWD/platform-tools:$PATH"
 * $ sudo apt install android-tools-adb
@@ -28,7 +28,7 @@ Install Fastboot + ADB (You will only need ADB for this but Fastboot comes handy
 
 $ adb devices
 
-You should get output 
+You should get output
 
 Enable ADB Shell:
 

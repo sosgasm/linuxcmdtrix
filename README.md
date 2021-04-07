@@ -1,2 +1,3 @@
 # linuxcmdtrix
-Handy (linux commandline) tricks to make life easier
+Welcome, here you will find handy guidelines and get things done by using linux commands.
+Feel free to contribute!
