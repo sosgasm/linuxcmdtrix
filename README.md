@@ -1,3 +1,2 @@
 # linuxcmdtrix
-Welcome, here you will find handy guidelines and get things done by using linux commands.
-Feel free to contribute!
+Welcome. This is a dump of Linux commands that i used to troubleshoot various problems. Do not hesitate to contribute, you will find the rules to contribute in CONTRIBUTING.md. 
