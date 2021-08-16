@@ -1,7 +1,7 @@
 # Quick and dirty dump on how to install Apache on Almalinux 
 
-./autorun.sh 
-./VBoxLinuxAdditions.run 
+./autorun.sh  
+./VBoxLinuxAdditions.run   
 sudo ./VBoxLinuxAdditions.run 
 sudo reboot
 dnf install httpd
